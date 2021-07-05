@@ -13,13 +13,13 @@ E-mail: zh13997821732@163.com
 """
 
 
-# class Test(object):
-#
-#     def __init__(self, name):
-#         pass
-#
-#
-# t = Test()
+class Test(object):
+
+    def __init__(self, name):
+        pass
+
+
+t = Test(1)
 
 
 

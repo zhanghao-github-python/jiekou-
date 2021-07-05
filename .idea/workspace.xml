@@ -22,10 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="111b161c-6e93-4f1a-9e18-045a9d0f871e" name="Default Changelist" comment="2020121021313">
+    <list default="true" id="111b161c-6e93-4f1a-9e18-045a9d0f871e" name="Default Changelist" comment="321341">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/send_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/test_add_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_add_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/api_automation_course.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/api_automation_course.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l0xUT7Tc3itHPqjZpayvjVT74X" />
@@ -53,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/U盘资料/20200003/python基础" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -73,7 +79,28 @@
       <recent name="C:\Users\Administrator\PycharmProjects\api_automation-lianxi\library" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.xmind_csv">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_automation-lianxi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="api_automation-lianxi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,20 +178,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_cases.test_add_projec1t.ProjectTestCase.test_add_project" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="api_automation-lianxi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_cases.test_add_projec1t.ProjectTestCase.test_add_project&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in C:/Users/Administrator/PycharmProjects/api_automation-lianxi/test_cases/test_add_projec1t.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="api_automation-lianxi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.xmind_csv" />
         <item itemvalue="Python.tools" />
         <item itemvalue="Python tests.Unittests in test_add_project.py" />
         <item itemvalue="Python tests.Unittests in C:/Users/Administrator/PycharmProjects/api_automation-lianxi/test_cases/test_add_projec1t.py" />
-        <item itemvalue="Python tests.Unittests for test_cases.test_add_projec1t.ProjectTestCase.test_add_project" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622978171802</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="321341">
+      <created>1624971981145</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1624971981145</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,36 +317,41 @@
     <MESSAGE value="2020120" />
     <MESSAGE value="20201206" />
     <MESSAGE value="2020121021313" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020121021313" />
+    <MESSAGE value="321341" />
+    <option name="LAST_COMMIT_MESSAGE" value="321341" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1624289662922">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1625053448987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624289662922" />
-    <state width="1899" height="341" key="GridCell.Tab.0.bottom" timestamp="1624811012813">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625053448987" />
+    <state x="771" y="439" key="Github.CreateGistDialog" timestamp="1624977160061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624811012813" />
-    <state width="1899" height="341" key="GridCell.Tab.0.center" timestamp="1624811012813">
+    <state x="771" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624977160061" />
+    <state width="1899" height="341" key="GridCell.Tab.0.bottom" timestamp="1625144190721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624811012813" />
-    <state width="1899" height="341" key="GridCell.Tab.0.left" timestamp="1624811012813">
+    <state width="1899" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625144190721" />
+    <state width="1899" height="341" key="GridCell.Tab.0.center" timestamp="1625144190721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624811012813" />
-    <state width="1899" height="341" key="GridCell.Tab.0.right" timestamp="1624811012813">
+    <state width="1899" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625144190721" />
+    <state width="1899" height="341" key="GridCell.Tab.0.left" timestamp="1625144190721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624811012813" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1624876680185">
+    <state width="1899" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625144190721" />
+    <state width="1899" height="341" key="GridCell.Tab.0.right" timestamp="1625144190721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1624876680185" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1622978789496">
+    <state width="1899" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625144190721" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1624971904128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1622978789496" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1624971904128" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1624971987549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1624971987549" />
   </component>
 </project>
